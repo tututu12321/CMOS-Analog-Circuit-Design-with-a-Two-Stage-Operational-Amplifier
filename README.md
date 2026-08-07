@@ -100,3 +100,9 @@
 7.17 極・零点・位相余裕を概算する
 7.18 仕様未達時の設計値の修正方法
 7.19 手計算結果のまとめと設計表の作成
+
+
+
+
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/9d880011-b5d9-44d9-8b26-c5cc9a86bd04" />
+
