@@ -145,12 +145,14 @@ https://toshiba.semicon-storage.com/jp/semiconductor/knowledge/faq/linear_opamp/
 ## 0.1　二段構成オペアンプの概要
 
 ### わずかな電圧の違いを大きくする
+<img width="1111" height="747" alt="image" src="https://github.com/user-attachments/assets/bf00479c-59f1-4c89-96fb-ea42275197c9" />
 
 オペアンプには2つの入力があり、その電圧の違いを受け取って増幅する。
 
 二段構成オペアンプでは、増幅する部分が内部で二つに分かれている。NMOSとPMOSで作られており、小さなICの中に組み込むことができる。
 この回路は、NMOSとPMOSという2種類のMOSFETを組み合わせて作られる。MOSFETは、入力された電圧によって電流の流れ方を調整する部品である。
 NMOSはゲートの電圧が高くなると電流を流しやすくなり、PMOSはゲートの電圧が低くなると電流を流しやすくなる。この反対の動きをする2種類を組み合わせることで、入力から出力までの信号を一つのICの中で扱える。
+
 **結論**
 
 二段構成CMOSオペアンプは、小さな入力電圧の差を二段に分けて増幅する回路である。
