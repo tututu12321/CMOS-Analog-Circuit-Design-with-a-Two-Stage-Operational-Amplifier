@@ -2375,7 +2375,7 @@ A_0[dB] ≈ 34 dB + 26 dB = 60 dB
 ---
 
 ## 3.1　二段構成オペアンプの全体回路
-<img width="1111" height="747" alt="image" src="https://github.com/user-attachments/assets/6dfc79b1-36f5-4a99-8091-67302686350d" />
+
 
 この回路には、入力から出力まで4つの役割がある。
 
@@ -2390,7 +2390,7 @@ A_0[dB] ≈ 34 dB + 26 dB = 60 dB
 ---
 
 ## 3.2　第1段の差動増幅回路
-<img width="1111" height="747" alt="image" src="https://github.com/user-attachments/assets/83bda3d5-09b6-4dfb-ab71-d75c1c640a42" />
+
 
 まず、2つの入力電圧が`M1`と`M2`へ入る。
 
@@ -2409,7 +2409,7 @@ A_0[dB] ≈ 34 dB + 26 dB = 60 dB
 ---
 
 ## 3.3　電流ミラー能動負荷
-<img width="1111" height="747" alt="image" src="https://github.com/user-attachments/assets/4d39f33a-ff33-4ad0-8911-ae1253bbd4b9" />
+
 
 `M1`と`M2`で生じた電流の変化は、まだ左右2本に分かれている。
 
@@ -2426,7 +2426,7 @@ A_0[dB] ≈ 34 dB + 26 dB = 60 dB
 ---
 
 ## 3.4　第2段のソース接地増幅回路
-<img width="1111" height="747" alt="image" src="https://github.com/user-attachments/assets/fc6e4c98-65a2-4d9a-a3fd-80cb51e5bcd0" />
+
 
 中間電圧`v_1`は、第2段のPMOS `M6`のゲートへ入る。
 
@@ -2441,7 +2441,7 @@ A_0[dB] ≈ 34 dB + 26 dB = 60 dB
 ---
 
 ## 3.5　バイアス電流の流れ
-<img width="1111" height="747" alt="image" src="https://github.com/user-attachments/assets/20531b94-17bb-4b11-8f87-f8e8eef24f3f" />
+
 
 ここまでの増幅動作を行うには、入力信号が来る前から各MOSFETへ適切な電流を流しておく必要がある。
 
