@@ -146,6 +146,9 @@
 例えば、2つの入力電圧の差がわずか1 mVであっても、オペアンプの電圧利得が大きければ、より大きな出力電圧の変化として
 <img width="1137" height="446" alt="image" src="https://github.com/user-attachments/assets/c5b6803d-9320-4cf1-a780-20d21ac9b91d" />
 
+
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/a99a0024-fa38-4a27-ad5a-553e2b5063e2" />
+
 参考：[オペアンプとは｜東芝デバイス＆ストレージ](https://toshiba.semicon-storage.com/jp/semiconductor/knowledge/faq/linear_opamp/what-is-an-operational-amplifier.html)
 
 ## 0.1　二段構成オペアンプの概要
@@ -715,6 +718,13 @@ I_D = N_f × I_Df
 ```
 
 全体の`W/L`を保ちながら、ゲート抵抗と面積を抑え、素子の整合性を高められる。
+
+---
+
+**参考文献**
+
+* Mizuki Mori「[SKY130で学ぶLSI回路設計](https://www.noritsuna.jp/download/lec240921.pdf)」2024年9月21日、スライド124–130「マルチフィンガーについて・ミスマッチシミュレーション」（2026年8月8日閲覧）
+
 
 **結論**
 
