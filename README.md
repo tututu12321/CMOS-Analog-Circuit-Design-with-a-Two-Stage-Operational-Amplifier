@@ -64,7 +64,6 @@
 ### わずかな電圧の違いを大きくする
 <img width="1111" height="747" alt="image" src="https://github.com/user-attachments/assets/bf00479c-59f1-4c89-96fb-ea42275197c9" />
 
-取り出せる。
 
 
 ### NMOSとPMOSを組み合わせる
