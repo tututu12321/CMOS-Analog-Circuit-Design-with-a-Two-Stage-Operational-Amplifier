@@ -1484,7 +1484,7 @@ MOSFET増幅は、まず`g_m`で電圧を電流に変え、その電流を抵抗
 この影響を小信号の抵抗として表したものが、出力抵抗r_oである。
 
 ただし、r_oは回路に実際に接続されている抵抗ではない。V_DSの変化によってI_Dがどの程度変化するかを、抵抗として表した小信号モデルである。
-![Uploading image.png…]()
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/a371a7ec-7294-4656-a969-0ce4e9fa19e2" />
 
 ### 変化量から出力抵抗を考える
 
@@ -3308,9 +3308,11 @@ SPICEでは、最初にDC動作点を求め、その動作点でMOSFETを小信�
 
 DC解析では動作点`Q`を求め、AC解析ではその周りの小さな信号に対する利得と位相を求める。
 
+<img width="1140" height="653" alt="image" src="https://github.com/user-attachments/assets/3cf1921c-9217-4253-b799-c86e50901233" />
 
 
 <img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/62f87147-cdfc-40d0-bdcc-a43ddc15684b" />
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/72a6ffa5-72f4-4115-82f6-953331babdc4" />
 
 
 ## 5.2　複素数、ラプラス変換、伝達関数
@@ -3443,6 +3445,7 @@ dx(t)/dt
 | -- | -----: | -------: |
 | 微分 |   `ω`倍 |  `90°`進む |
 | 積分 | `1/ω`倍 | `90°`遅れる |
+<img width="1400" height="1260" alt="image" src="https://github.com/user-attachments/assets/892180c9-6d70-4482-b79e-21f4059253a3" />
 
 例えば、`f = 1 kHz`の場合は、
 
