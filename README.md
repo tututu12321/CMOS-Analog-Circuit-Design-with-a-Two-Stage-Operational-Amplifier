@@ -797,19 +797,15 @@ k_n = μ_n × C_ox × (W / L)
 ### マルチフィンガー(雑談)
 
 1つのMOSFETを`N_f`本の細いMOSFETに分割し、並列接続するレイアウト方法である。
-
-```text
-W = N_f × W_f
-I_D = N_f × I_Df
-```
+<img width="1342" height="937" alt="image" src="https://github.com/user-attachments/assets/e556366f-8bcf-4868-874f-767e573c8f9e" />
 
 全体の`W/L`を保ちながら、ゲート抵抗と面積を抑え、素子の整合性を高められる。
 
 ---
-
-**参考文献**
+**参考**
 
 * Mizuki Mori「[SKY130で学ぶLSI回路設計](https://www.noritsuna.jp/download/lec240921.pdf)」2024年9月21日、スライド124–130「マルチフィンガーについて・ミスマッチシミュレーション」（2026年8月8日閲覧）
+* Analog Layout & Design「[MULTIPLIER & FINGER](https://www.youtube.com/watch?v=gthnxp9P6uU&t=357s)」YouTube、2020年1月3日、5分57秒以降「マルチプライヤとマルチフィンガーの違い」（2026年8月8日閲覧）
 
 
 **結論**
