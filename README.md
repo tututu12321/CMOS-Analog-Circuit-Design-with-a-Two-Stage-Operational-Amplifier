@@ -3315,6 +3315,8 @@ DC解析
 AC解析
 
 
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/62f87147-cdfc-40d0-bdcc-a43ddc15684b" />
+
 
 ## 5.2　複素数、ラプラス変換、伝達関数
 
@@ -3693,6 +3695,7 @@ Y_step(s) = H(s)/s
 を逆ラプラス変換して求める。
 
 ---
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/2c140cd4-957d-438d-8176-af8bb23ecadb" />
 
 ### RC回路の応答例
 
@@ -3735,6 +3738,7 @@ y_step(t)
 | `t = 5τ = 50 μs` | 最終値の約`99.3%` |
 
 インパルス応答とステップ応答には同じ時定数`τ`が現れる。どちらも同じ回路の速さを、異なる入力で見ている。
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f3e3b456-76d4-4e59-ac1a-92694d640592" />
 
 ## 　ボード線図
 
@@ -3907,6 +3911,7 @@ fu ≈ GBW ≈ 45 MHz
 安定性を調べるときは、ループ利得が`0 dB`になる周波数`fu`と、その周波数での位相が重要になる。
 
 ---
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/37fd08f7-7cf5-4d16-8e3b-1435a86d167d" />
 
 ## 　負帰還と位相余裕
 
