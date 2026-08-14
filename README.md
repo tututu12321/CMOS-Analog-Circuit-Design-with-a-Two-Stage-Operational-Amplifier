@@ -788,6 +788,7 @@ k_n = μ_n × C_ox × (W / L)
 
 実際には、V_DSが増えるとI_Dも少し増える。この現象をチャネル長変調という。
 
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/28cd552b-b121-41e9-b2cc-688f84a49829" />
 
 **参考文献**
 [チャネル長変調の解説](https://sawazawablog.com/channel_length_modulation/)
