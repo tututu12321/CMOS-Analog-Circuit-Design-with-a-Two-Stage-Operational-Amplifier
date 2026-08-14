@@ -3316,18 +3316,8 @@ SPICEでは、最初にDC動作点を求め、その動作点でMOSFETを小信�
 DC解析では動作点`Q`を求め、AC解析ではその周りの小さな信号に対する利得と位相を求める。
 
 
-DC解析
-↓
-動作点Q
-↓
-小信号モデル
-↓
-AC解析
-
 
 <img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/62f87147-cdfc-40d0-bdcc-a43ddc15684b" />
-
-あ
 
 
 ## 5.2　複素数、ラプラス変換、伝達関数
