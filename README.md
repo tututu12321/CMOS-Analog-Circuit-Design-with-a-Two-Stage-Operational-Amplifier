@@ -4556,6 +4556,7 @@ Stability               = Stable (good phase margin)
 二段構成CMOSオペアンプは、差動増幅回路、カレントミラー、ソース接地増幅回路、位相補償容量を組み合わせて作る。
 
 この章では、最初に何を実現したいのかと設計の流れを短く説明し、伝達関数を使って性能を概算する。その後に、各MOSFETの設計式、W/Lの計算、入力・出力範囲、消費電力、シミュレーション方法を補足説明として示す。
+<img width="1111" height="747" alt="image" src="https://github.com/user-attachments/assets/037eca5f-7d42-4214-955b-574ed04d112f" />
 
 ---
 
