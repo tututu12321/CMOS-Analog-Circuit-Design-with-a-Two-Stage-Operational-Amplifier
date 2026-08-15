@@ -642,7 +642,9 @@ I_D
 ≈
 (1/2)μnCox(W/L)V_OV^2
 ```
-
+<img width="1179" height="758" alt="image" src="https://github.com/user-attachments/assets/057fc03b-49be-45d1-9ae0-538588fa9430" />
+WとLの説明
+https://cc.cqpub.co.jp/system/contents/1949/
 したがって、トランジスタ寸法`W/L`が同じ場合、`V_OV`が大きくなるとドレイン電流はおおよそ2乗に比例して増加する。
 
 ```text
@@ -985,6 +987,8 @@ g_mが大きい
 ---
 
 ### 動作点とは何か
+
+https://www.nuhogachi.com/analog-circuit-basic/small-signal/
 
 MOSFETを増幅回路として使うときは、入力信号を加える前から一定の電圧と電流を与えておく。
 
