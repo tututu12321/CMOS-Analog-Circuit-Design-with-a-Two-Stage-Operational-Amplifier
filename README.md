@@ -6047,12 +6047,13 @@ R = V_R / I_5
 
 最初に、負荷容量と位相余裕からC_cを決める。次に、スルーレートと実現可能なMOSFET寸法からI_5を決める。GBWからM1、M2を決め、同相入力範囲からM3、M4、M5を決める。最後に、位相余裕と出力範囲からM6、M7を決める。
 
-
 **参考**
 
-* かきエレ「[【誰も教えてくれない常識】MOSFETのミラー効果とは？](https://kakitamablog.com/miller-effect/)」2023年4月9日（2026年8月14日閲覧）
-* かきエレ「[[電子回路初心者向け] オペアンプ内部回路の動作原理を数式を1つも使わずに解説](https://kakitamablog.com/opamp-easy-to-understand/)」2022年6月9日公開、2022年10月24日更新（2026年8月14日閲覧）
+* かきエレ「[【誰も教えてくれない常識】MOSFETのミラー効果とは？](https://kakitamablog.com/miller-effect/)」2023年4月9日公開（2026年8月14日閲覧）
+* かきエレ「[\[電子回路初心者向け\] オペアンプ内部回路の動作原理を数式を1つも使わずに解説](https://kakitamablog.com/opamp-easy-to-understand/)」2022年6月9日公開、2022年10月24日更新（2026年8月14日閲覧）
 * かきエレ「[【技術書の書評】LSI設計者のためのCMOSアナログ回路入門](https://kakitamablog.com/gijutsusho-shohyo-cmos-analog-circuit-intro/)」2022年6月10日公開、2025年2月20日更新（2026年8月14日閲覧）
+* Michael H. Perrott「[Basic Two Stage CMOS Opamp](https://www.cppsim.com/CircuitLectures/Lecture17.pdf)」*Analysis and Design of Analog Integrated Circuits*, Lecture 17、2012年4月4日（2026年8月14日閲覧）
+* P. Bruschi「[The Simplest CMOS Two-Stage Op-Amp](https://docenti.ing.unipi.it/~a008309/mat_stud/MIXED/archive/2022/Slides_pdf/14_opamp_DOFs_A0_poles_V4.pdf)」*Design of Mixed Signal Circuits*（2026年8月14日閲覧）
 ## おまけ　Google Colabで計算し、ボード線図と位相図を描く
 
 次のPythonコードを実行すると、設計値から直流利得、第1極、第2極、RHP零点、GBW、位相余裕、スルーレート、入力・出力範囲、消費電力を計算できる。
