@@ -645,6 +645,11 @@ I_D
 <img width="1179" height="758" alt="image" src="https://github.com/user-attachments/assets/057fc03b-49be-45d1-9ae0-538588fa9430" />
 WとLの説明
 https://cc.cqpub.co.jp/system/contents/1949/
+
+
+
+
+
 したがって、トランジスタ寸法`W/L`が同じ場合、`V_OV`が大きくなるとドレイン電流はおおよそ2乗に比例して増加する。
 
 ```text
