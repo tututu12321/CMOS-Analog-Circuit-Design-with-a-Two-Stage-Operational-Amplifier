@@ -992,7 +992,7 @@ g_mが大きい
 ---
 
 ### 動作点とは何か
-
+くわしい大信号解析と小信号の解説はこちら↓
 https://www.nuhogachi.com/analog-circuit-basic/small-signal/
 
 MOSFETを増幅回路として使うときは、入力信号を加える前から一定の電圧と電流を与えておく。
@@ -1494,7 +1494,6 @@ MOSFET増幅は、まず`g_m`で電圧を電流に変え、その電流を抵抗
 この影響を小信号の抵抗として表したものが、出力抵抗r_oである。
 
 ただし、r_oは回路に実際に接続されている抵抗ではない。V_DSの変化によってI_Dがどの程度変化するかを、抵抗として表した小信号モデルである。
-<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/a371a7ec-7294-4656-a969-0ce4e9fa19e2" />
 
 ### 変化量から出力抵抗を考える
 
